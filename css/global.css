@@ -1,0 +1,83 @@
+html {
+	height: 100%;
+}
+body {
+	font-size: 16px;
+	height: 100%;
+	font-family: 'Fujiyama2';
+	color: var(--Grey);
+	font-weight: 400;
+	counter-reset: section;
+}
+
+:root {
+  --Purple: #09007c;
+  --Light_Pink: #ffdeff;
+  --Light_Magenta : #ff33ff;
+  --Magenta: #ff00ff;
+  --Grey: #4d4d4d;
+  --Light_Grey: #b3b3b3;
+}
+
+/* notification css */
+.error {
+	color: var(--Magenta);
+	margin-bottom: 0;
+}
+a { color: var(--Grey) }
+.ay_lst {
+	list-style: none;
+	padding: 0;
+}
+
+/* counter css */
+
+
+/*== buttons and inputs ==*/
+.ay_button {
+	color: #fff;
+	border: solid 1px var(--Magenta);
+	background: var(--Magenta);
+	padding: 4px 15px;
+	font-size: 22px;
+	border-radius: .6rem;
+}
+.form-control {
+	border-radius: .6rem;
+	font-size: 18px;
+}
+.checkcontainer { display: block; position: relative; padding-left: 35px; margin-bottom: 12px; cursor: pointer;}
+.checkcontainer input { position: absolute; opacity: 0; cursor: pointer; }
+.radiobtn {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 15px;
+	width: 15px;border-radius: 50%;
+	border: solid 1px var(--Grey);
+}
+.checkcontainer input:checked ~ .radiobtn {
+	background: var(--Magenta);
+}
+.checkcontainer input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+}
+
+
+
+
+/* nottom menu */
+.ht_full { position: relative; height: 100%; overflow: auto;}
+.ht_full .mnu { position: fixed; bottom: 0; width: 100%; background: #fff; }
+.ht_full .mnu a.active { color: var(--Magenta);}
+
+/* main menu */
+.main_menu .mn_tr a { font-size: 2.5rem; }
+.mnu_itm a { text-decoration: none;}
+.mnu_itm small { font-size: 12px;}
+.mnu_itm { margin-bottom: 10px;}
+.offcanvas-title { font-size: 1.8rem;}
+.main_menu .offcanvas-body ul { list-style: none;}
+.main_menu .offcanvas-body ul li:not(:last-child) { border-bottom: solid 1px var(--Light_Grey); margin-bottom: 1rem; padding-bottom: 1rem;}

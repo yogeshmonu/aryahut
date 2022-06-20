@@ -1,0 +1,134 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+
+@media screen and (max-width: 600px) {
+
+/*== login screen css ==*/
+.a_crd {
+	border-radius: 1.5em;
+	min-height: 230px;
+	padding: 2.5rem 1.5rem;
+	margin-bottom: 5rem !important;
+}
+.log_bottom {
+	/*position: absolute;
+	bottom: 50px;*/
+	text-align: center;
+}
+.log_bottom .ay_button {
+	width: 250px;
+	margin-top: 15px;
+}
+.log_bottom p { font-size: 10px; }
+.log_registr {
+	padding: 25px;
+	position: relative;
+	height: 100%;
+}
+.log_registr .head_t p {
+	font-size: 15px;
+}
+
+
+
+/*=== otp page css ====*/
+.otp_scr {
+	padding: 25px;
+}
+.hedr p { margin-top:3rem; font-size: 18px; }
+.otp_scr .hedr {
+	position: relative;
+}
+.otp_scr .hedr .go_back {
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: 24px;
+}
+.otp_steps {
+	margin-bottom: 1.5rem;
+}
+.otp_steps .ot_step {
+	width: 33.33%;
+}
+.otp_steps .ot_step .stp_bar {
+	background: #fff;
+	height: 3px;
+}
+.otp_steps .ot_step .stp_bar.complete {
+	background: var(--Grey);
+}
+.oto_sec .o_t_p {
+	margin-bottom: 3rem;
+}
+.oto_sec .o_t_p .form-control {
+	border: none;
+	border-bottom: solid 1px var(--Magenta);
+	border-radius: 0;
+}
+.otp_custu_care {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,.5);
+}
+.otp_custu_care .inr {
+    position: absolute;
+    bottom: 0;
+    background: var(--Light_Pink);
+    width: 100%;
+    padding: 25px;
+}
+span.clos {
+    position: relative;
+    top: -15px;
+    left: 50%;
+    height: 3px;
+    display: block;
+    background: var(--Grey);
+    width: 40px;
+    transform: translateX(-20px);
+}
+
+/*== g-score page css ==*/
+.opt { width: 70%; float: left; }
+.otp_scr h1 { font-size: 30px; margin-bottom: 2rem; }
+.fst, .last { width: 15%; float: left; }
+.qstn ol { padding: 0; }
+.qstn ol li { width: 100%; list-style: lower-alpha; float: left; font-size: 16px; }
+.qstn { margin-bottom: 1rem; width: 100%; float: left; }
+.parnt_ul { padding-left: 20px; font-size: 20px; }
+.parnt_ul > li { list-style: decimal; }
+}
+
+
+/*== g-score instraction page css ===*/
+.g_scor_instr .instr h1{ font-size: 56px; font-style: italic; }
+.instr ul { list-style-type: decimal; padding-left: 20px; font-size: 18px; margin-bottom: 5rem;; }
+
+
+/* ==== search page css ===== */
+.srh_hd { padding: 1rem;}
+.srch_pg .srh_hd h1 { font-size: 20px; margin-bottom: 15px;}
+.tagss { padding-left: 10px; padding-bottom: 1rem; margin-top: 3rem;}
+.tagss a { margin: 0 5px; background-color: var(--Light_Pink); font-size: 10px; padding: 2px 10px; border-radius: 4px;}
+.srch_cont h2 { font-size: 18px; margin-bottom: 1.7rem;}
+.srch_cont ul li { list-style: none; padding-left: 25px; position: relative; margin-bottom: 1.5rem;}
+.srch_cont ul li::before { counter-increment: section; content: counter(section); position: absolute; left: 0; color: var(--Light_Grey); font-size: 24px;}
+.srch_cont .cnt h3 { font-size: 20px;}
+.srch_cont .cnt .nm { color: var(--Magenta);}
+.srch_cont .cnt .det_sr { position: absolute; right: 0; bottom: 0; }
+.srch_cont .cnt .pr i { color: var(--Magenta);}
+
+
+/* ==== unlock membership page css ===== */
+.Unl_memb .hdr { margin-bottom: 1rem; padding: 1rem;}
+.Unl_memb .hdr .hlp a { margin: 0 5px; background-color: var(--Magenta); font-size: 14px; padding: 2px 10px; border-radius: 4px; color: #fff;}
+.Unl_memb .hdr .clos span { font-size: 1.3rem; }
+.Unl_memb .hdr .clos a { text-decoration: none; }
+.Unl_memb .mam_cont { padding: 1rem; }
+.Unl_memb .mam_cont ul {padding: 0;}
+.Unl_memb .mam_cont ul li { font-size: 18px; list-style: none; position: relative; padding-left: 20px; margin-bottom: 1rem; }
+.Unl_memb .mam_cont ul li::before { content: "\F309"; left: -10px; color: var(--Magenta); top:-10px; font-family: bootstrap-icons !important; font-size: 2rem; position: absolute;}
+.Unl_memb .mam_cont .btngt { margin-top: 4rem; }

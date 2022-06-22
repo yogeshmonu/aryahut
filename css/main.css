@@ -132,3 +132,11 @@ span.clos {
 .Unl_memb .mam_cont ul li { font-size: 18px; list-style: none; position: relative; padding-left: 20px; margin-bottom: 1rem; }
 .Unl_memb .mam_cont ul li::before { content: "\F309"; left: -10px; color: var(--Magenta); top:-10px; font-family: bootstrap-icons !important; font-size: 2rem; position: absolute;}
 .Unl_memb .mam_cont .btngt { margin-top: 4rem; }
+
+
+/* ==== user role css ===== */
+.usr_rl .sc_wrp .lp_ar { background-color: rgba(255,255,255,.5); }
+.sc_wrp .lp_ar .tim { text-align: center; font-size: .8rem; }
+.sc_wrp .lp_ar .erj { background-color: var(--Grey); border: solid 2px var(--Magenta); color: #fff; width: 70px; height: 70px; border-radius: 50%; text-align: center; }
+.sc_wrp .lp_ar .ttl a { font-size: 1.5rem; text-decoration: none; }
+

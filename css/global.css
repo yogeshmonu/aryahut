@@ -19,6 +19,12 @@ body {
   --Light_Grey: #b3b3b3;
 }
 
+.ar_shadow {
+	-webkit-box-shadow: 0px 0px 19px 1px rgba(0,0,0,0.26);
+-moz-box-shadow: 0px 0px 19px 1px rgba(0,0,0,0.26);
+box-shadow: 0px 0px 19px 1px rgba(0,0,0,0.26);
+}
+
 /* notification css */
 .error {
 	color: var(--Magenta);
@@ -71,6 +77,7 @@ a { color: var(--Grey) }
 /* nottom menu */
 .ht_full { position: relative; height: 100%; overflow: auto;}
 .ht_full .mnu { position: fixed; bottom: 0; width: 100%; background: #fff; }
+.ht_full .mnu a { font-size: 1.7rem;}
 .ht_full .mnu a.active { color: var(--Magenta);}
 
 /* main menu */

@@ -20,9 +20,9 @@ body {
 }
 
 .ar_shadow {
-	-webkit-box-shadow: 0px 0px 19px 1px rgba(0,0,0,0.26);
--moz-box-shadow: 0px 0px 19px 1px rgba(0,0,0,0.26);
-box-shadow: 0px 0px 19px 1px rgba(0,0,0,0.26);
+	-webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.26);
+	-moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.26);
+	box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.26);
 }
 
 /* notification css */
@@ -75,12 +75,14 @@ a { color: var(--Grey) }
 
 
 /* nottom menu */
-.ht_full { position: relative; height: 100%; overflow: auto;}
+.ht_full { position: relative; height: 100%; overflow: auto; padding-bottom: 50px;}
 .ht_full .mnu { position: fixed; bottom: 0; width: 100%; background: #fff; }
 .ht_full .mnu a { font-size: 1.7rem;}
 .ht_full .mnu a.active { color: var(--Magenta);}
 
 /* main menu */
+.notf { margin-right: 1rem; margin-top: -10px;}
+.main_menu .mn_tr { padding: .5rem;}
 .main_menu .mn_tr a { font-size: 2.5rem; }
 .mnu_itm a { text-decoration: none;}
 .mnu_itm small { font-size: 12px;}

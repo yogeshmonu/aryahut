@@ -136,7 +136,9 @@ span.clos {
 
 /* ==== user role css ===== */
 .prdt .aydp img { border-radius: 50%; object-fit: cover; }
-.dtpan { border-radius: .8rem;}
+.dtpan { border-radius: .8rem; padding: .5rem; }
+.dtpan p, .dtpan a { font-size: 18px; margin: 10px 0; display: block;} 
+.dtpan a { color: var(--Magenta); text-decoration: none;}
 .usr_rl .sc_wrp { background: rgb(255,24,203); background: linear-gradient(129deg, rgba(255,24,203,0.7868095140778617) 0%, rgba(93,9,121,0.5957982781228055) 51%, rgba(18,0,42,0.7783825477857268) 100%);}
 .usr_rl .sc_wrp .lp_ar { background-color: rgba(255,255,255,.5); }
 .sc_wrp .lp_ar .tim { text-align: center; font-size: .8rem; }

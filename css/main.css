@@ -3,32 +3,16 @@
 @media screen and (max-width: 600px) {
 
 /*== login screen css ==*/
-.a_crd {
-	border-radius: 1.5em;
-	min-height: 230px;
-	padding: 2.5rem 1.5rem;
-	margin-bottom: 5rem !important;
-}
+.a_crd { border-radius: 1.5em; min-height: 230px; padding: 2.5rem 1.5rem; margin-bottom: 5rem !important; }
 .log_bottom {
 	/*position: absolute;
 	bottom: 50px;*/
 	text-align: center;
 }
-.log_bottom .ay_button {
-	width: 250px;
-	margin-top: 15px;
-}
+.log_bottom .ay_button { width: 250px; margin-top: 15px; }
 .log_bottom p { font-size: 10px; }
-.log_registr {
-	padding: 25px;
-	position: relative;
-	height: 100%;
-}
-.log_registr .head_t p {
-	font-size: 15px;
-}
-
-
+.log_registr { padding: 25px; position: relative; height: 100%; }
+.log_registr .head_t p { font-size: 15px; }
 
 /*=== otp page css ====*/
 .otp_scr {
@@ -73,23 +57,8 @@
     height: 100%;
     background: rgba(255,255,255,.5);
 }
-.otp_custu_care .inr {
-    position: absolute;
-    bottom: 0;
-    background: var(--Light_Pink);
-    width: 100%;
-    padding: 25px;
-}
-span.clos {
-    position: relative;
-    top: -15px;
-    left: 50%;
-    height: 3px;
-    display: block;
-    background: var(--Grey);
-    width: 40px;
-    transform: translateX(-20px);
-}
+.otp_custu_care .inr { position: absolute; bottom: 0; background: var(--Light_Pink); width: 100%; padding: 25px;}
+span.clos { position: relative; top: -15px; left: 50%; height: 3px; display: block; background: var(--Grey); width: 40px; transform: translateX(-20px);}
 
 /*== g-score page css ==*/
 .opt { width: 70%; float: left; }
@@ -145,3 +114,15 @@ span.clos {
 .sc_wrp .lp_ar .erj { background-color: var(--Grey); border: solid 2px var(--Magenta); color: #fff; width: 70px; height: 70px; border-radius: 50%; text-align: center; }
 .sc_wrp .lp_ar .ttl a { font-size: 1.5rem; text-decoration: none; }
 
+
+
+/* === details page css === */
+.dtls { margin-top: 10vh; background: rgb(255,24,203);
+	background: linear-gradient(0deg, rgba(255,24,203,0.5592814241902212) 0%, rgba(255,255,255,0.6744499635160639) 100%, rgba(255,255,255,0.7783825477857268) 100%);}
+.sgrd input[type=radio],
+.gndr input[type=radio] { position: absolute; opacity: 0; }
+.gndr input[type=radio]:checked + .radio-label { border-bottom: solid 2px var(--Magenta);}
+.sgrd .radio-label { border: solid 1px var(--Grey); border-radius: 4px; padding: 0 10px; margin-top: 5px;}
+.sgrd input[type=radio]:checked + .radio-label { background-color: var(--Magenta); color: #fff; }
+.nmtg input { border: none; border-bottom: solid 1px var(--Grey); background: transparent; }
+.dtbtm { margin-top: 15vh;}

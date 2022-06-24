@@ -17,9 +17,8 @@
   </head>
   <body>
 
-<div class="p-4">
-  <div class="">
-
+<div class="">
+  <div class="p-4">
     <!-- steps -->
     <div class="otp_steps row">
       <div class="ot_step">
@@ -36,9 +35,51 @@
 </div>
 
 
-<div>
-  <div class="text-center">
+<div class="dtls p-4">
+  <div class="text-center mb-5">
     <h2>Details</h2>
+  </div>
+  <div>
+    <form>
+      <div class="mb-4 nmtg">
+        <input type="text" class="form-control rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
+      </div>
+
+      <div class="">
+        <fieldset class="scheduler-border d-flex">
+          <p><legend class="scheduler-border">Select Gender:-</legend></p>
+          <div class="control-group d-flex">
+            <div class="form-check gndr">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="ml" checked>
+              <label class="form-check-label radio-label" for="ml"><i class="bi bi-gender-male"></i></label>
+            </div>
+            <div class="form-check gndr">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="fml">
+              <label class="form-check-label radio-label" for="fml"><i class="bi bi-gender-female"></i></label>
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset class="scheduler-border d-flex">
+          <p><legend class="scheduler-border">Select Age Group</legend></p>
+          <div class="control-group d-flex">
+            <div class="form-check sgrd">
+              <input class="form-check-input" type="radio" name="age" id="9t0o18" checked>
+              <label class="form-check-label radio-label" for="9t0o18">9-18</label>
+            </div>
+            <div class="form-check sgrd">
+              <input class="form-check-input" type="radio" name="age" id="18" >
+              <label class="form-check-label radio-label" for="18">18+</label>
+            </div>
+          </div>
+        </fieldset>
+      </div>
+
+      <div class="text-center dtbtm">
+        <button type="submit" class="btn ay_button"><i>Save & <br>Proceed to g-Score</i></button>
+        <p class="mt-4"><a href="" class="fs-4">What is g-Score</a></p>
+      </div>
+    </form>
   </div>
 </div>
 </div>

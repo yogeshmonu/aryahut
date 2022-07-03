@@ -86,6 +86,22 @@ input.form-control.pln::placeholder {
 
 
 /* == top background css ==== */
+.bg-v2 {
+    height: 200px;
+    position: absolute;
+    width: 100%;
+    background-image: url(../images/bg2.png);
+    z-index: -1;
+	background-size: cover;
+}
+.bg-v1 {
+    height: 200px;
+    position: absolute;
+    width: 100%;
+    background-image: url(../images/topbg-v1.png);
+    z-index: -1;
+	background-size: cover;
+}
 .bg_v1 { background-image: url(../images/topbg-v1.png); background-size: 100%; background-position: center -30px;}
 
 

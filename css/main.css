@@ -143,6 +143,129 @@ span.clos { position: relative; top: -15px; left: 50%; height: 3px; display: blo
 .fr_lst span.fr_img img { height: 50px; border-radius: 50%; }
 .fr_lst span.fr_nm > span { display: block; color: var(--Magenta);}
 .fr_lst span.fr_nm > a { font-size: 1.3em; text-decoration: none;}
-.cnctn_mn .fr_lst {
-    margin: 1rem 0 !important;
+.cnctn_mn .fr_lst {  margin: 1rem 0 !important; }
+
+
+/* === cource content page === */
+.crc_cnt { position: relative;}
+.crc_cnt .pic_mttr { max-height: 250px; overflow: hidden; padding-top: 70%; background-size: cover; position: relative;}
+.crc_cnt .pic_mttr::after { content: ''; display: block; height: 100%; width: 100%; position: absolute; top: 0; background: rgb(255,255,255);
+	background: linear-gradient(0deg, rgba(255,255,255,0.8851241208194347) 0%, rgba(255,255,255,0) 100%, rgba(255,255,255,0.7783825477857268) 100%);}
+.crc_cnt .hd_opt { position:absolute; width: 100%; top: 20px; }
+.crc_cnt .hd_opt span > a,
+.crc_cnt .hd_opt span { font-size: 2rem; line-height: 1; color: #fff;}
+.crc_cnt .hd_opt span { margin: 0 5px;}
+.crc_cnt .hd_opt span.bkmr > a,
+.crc_cnt .hd_opt span.bkmr { font-size: 1.2rem !important; margin-top: 7px;}
+.cntt_crs .nav .nav-link { padding: 0; margin: 0; border: none; border-bottom: solid 3px var(--Grey); padding-bottom: 7px; color: var(--Grey);}
+.cntt_crs .nav .nav-link.active { border-bottom: solid 3px var(--Magenta); background: none; }
+.ct_ls_dt .dscr > span{ margin: 0px 5px; }
+.ct_ls_dt button.ay_button {
+    font-size: 1em;
+    padding: 0 9px;
+    margin-top: 10px;
+}
+.al_cr_ls .cr_ls { background: var(--Light_Grey);}
+.al_cr_ls .cr_ls h3 {
+    font-size: 20px;
+    margin: 0;
+}
+.cr_ls .cr_ch {  margin: 8px 15px 3px 0px; width: 30px; height: 30px; border-radius: 50%; background-color: #fff; font-size: 20px; }
+.cr_ls .cr_ch.chck { font-size: 21px; color: var(--Magenta); font-weight: 700; }
+.mnt_oc > img { width: 30px; height: 30px; border-radius: 50%;}
+.al_cr_ls .cr_ls.mnt_ls p,
+.al_cr_ls .cr_ls.mnt_ls h3 { padding-left: 25px; position: relative;}
+.al_cr_ls .cr_ls.mnt_ls h3::before {
+	content: 'M';
+	position: absolute;
+	left: 0;
+	top: 2px; color: var(--Magenta); font-size: 16px; padding: 2px; text-align: center;
+	border: solid 1px var(--Grey); line-height: 1;
+}
+.al_cr_ls .cr_ls.mnt_ls .grd { color: var(--Magenta);}
+
+
+
+/* === account setting page  */
+.bg_v1.ac_sett { height: 100%;}
+.bg_v1.ac_sett .main_menu { height: 200px; }
+.bg_v1.ac_sett .dtls { margin-top: 10px; height: calc(100% - 200px);}
+.bg_v1.ac_sett .profile-pic {margin-top: -55px; margin-bottom: 35px;}
+.bg_v1.ac_sett .dtls legend {
+    font-size: 1em;
+    color: var(--Magenta);
+}
+
+/* badge page css */
+.bdg_log {margin-top: -150px;}
+.clnd { margin-top: 25px;}
+.clnd .dt{ font-size: 5rem; color: var(--Magenta); border-bottom: solid 1px var(--Light_Grey); }
+.clnd p { font-size: 1.5rem;}
+
+
+/* == enrolled and save === */
+.enlst .cten h2{margin-top: .7rem;}
+.enlst .cten h2::after {
+    content: '';
+    width: 35px;
+    height: 1px;
+    background: rebeccapurple;
+    display: block;
+    margin-top: 7px;
+}
+.cten .crsh {
+    width: 80%;
+    float: left;
+}
+.cten .psnt {
+	width: 20%; float: right; text-align: center;
+}
+.cten .psnt strong {
+    background: var(--Grey);
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    font-size: .89em;
+    padding: 5px 2px;
+}
+.btendt { font-size: .68rem;}
+.btendt .rnk { color: var(--Magenta); }
+.btendt .nmk::before {
+    content: 'M';
+    border: solid 1px var(--Grey);
+    line-height: 1;
+    color: var(--Magenta);
+    margin-right: 4px;
+}
+.svhdr { border-bottom: solid 2px var(--Grey); padding-bottom: 1rem;}
+.tgsh > span {
+	background-color: var(--Light_Pink); border-radius: 4px; margin-bottom: 10px; margin-right: 5px; padding: 0 12px;}
+.gsyh a {
+	color: var(--Magenta);
+	text-decoration: none;
+} 	
+.svcnt .imghb { 
+	width: 25%;
+	float: left;
+}
+.svcnt .cgav { 
+	width: 75%;
+	float: left;
+	padding-left: 15px;
+}
+.svcnt .cgav p > span{
+	color: var(--Magenta);
+}
+.svcnt .svcntldt .cgav h3 {
+	font-size: 1.3rem;
+}
+.svcnt .svcntldt { 
+	border-bottom: solid 1px var(--Light_Grey) ; padding-bottom: .4rem;     margin-bottom: 15px;
+}
+.allhadv {
+	border-top: solid 1px var(--Light_Grey);
+}
+.allhadv .svdcat h3 {
+	font-size: 1.25rem;
 }

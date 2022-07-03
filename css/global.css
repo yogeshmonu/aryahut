@@ -113,7 +113,7 @@ input.form-control.pln::placeholder {
 
 /* main menu */
 .notf { margin-right: 1rem; margin-top: -10px; margin-top: 15px !important; display: block; float: left;}
-.main_menu .mn_tr { padding: .5rem; margin-top: -15px;}
+.main_menu .mn_tr { padding: .5rem; }
 .main_menu .mn_tr a { font-size: 2.5rem; }
 .mnu_itm a { text-decoration: none;}
 .mnu_itm small { font-size: 12px;}

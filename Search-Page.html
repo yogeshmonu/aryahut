@@ -116,12 +116,29 @@
       </div>
 
       <section class="whmnt">
-        <div>
-          <div class="flws">
-            <div><img src="images/ranvir.webp" class="img-fluid" alt=""></div>
-            <div class="text-center">
-              <h4>Ranvir singh</h4>
-              <p>2-2-2-2</p>
+        <div class="pt-3">
+          <h2 class="px-3">Who to Follow</h2>
+          <div class="whofloe owl-carousel">
+            <div class="flws">
+              <div><img src="images/ranvir.webp" class="img-fluid" alt=""></div>
+              <div class="text-center">
+                <h4 class="mt-2">Ranvir singh</h4>
+                <p class="mgnta">2-2-2-2</p>
+              </div>
+            </div>
+            <div class="flws">
+              <div><img src="images/ranvir.webp" class="img-fluid" alt=""></div>
+              <div class="text-center">
+                <h4 class="mt-2">Ranvir singh</h4>
+                <p class="mgnta">2-2-2-2</p>
+              </div>
+            </div>
+            <div class="flws">
+              <div><img src="images/ranvir.webp" class="img-fluid" alt=""></div>
+              <div class="text-center">
+                <h4 class="mt-2">Ranvir singh</h4>
+                <p class="mgnta">2-2-2-2</p>
+              </div>
             </div>
           </div>
         </div>
@@ -138,5 +155,18 @@
     <!-- custom js -->
     <script src="js/owl.carousel.js"></script>
     <script src="js/custom.js"></script>
+    <script>
+      $('.whofloe').owlCarousel({
+        // center: true,
+        loop:true,
+        margin:20,
+        nav:false,
+        responsive:{
+            0:{
+                items:2
+            }
+        }
+    })
+    </script>
   </body>
 </html>

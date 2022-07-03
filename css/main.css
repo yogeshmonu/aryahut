@@ -61,9 +61,9 @@
 span.clos { position: relative; top: -15px; left: 50%; height: 3px; display: block; background: var(--Grey); width: 40px; transform: translateX(-20px);}
 
 /*== g-score page css ==*/
-.opt { width: 70%; float: left; }
+.opt { width: 76%; float: left; font-size: 16px; }
 .otp_scr h1 { font-size: 30px; margin-bottom: 2rem; }
-.fst, .last { width: 15%; float: left; }
+.fst, .last { width: 12%; float: left; font-size: 16px; }
 .qstn ol { padding: 0; }
 .qstn ol li { width: 100%; list-style: lower-alpha; float: left; font-size: 16px; }
 .qstn { margin-bottom: 1rem; width: 100%; float: left; }
@@ -83,12 +83,23 @@ span.clos { position: relative; top: -15px; left: 50%; height: 3px; display: blo
 .tagss { padding-left: 10px; padding-bottom: 1rem; margin-top: 3rem;}
 .tagss a { margin: 0 5px; background-color: var(--Light_Pink); font-size: 10px; padding: 2px 10px; border-radius: 4px;}
 .srch_cont h2 { font-size: 18px; margin-bottom: 1.7rem;}
-.srch_cont ul li { list-style: none; padding-left: 25px; position: relative; margin-bottom: 1.5rem;}
+.srch_cont ul li { list-style: none; padding-left: 35px; position: relative; margin-bottom: 1.5rem;}
 .srch_cont ul li::before { counter-increment: section; content: counter(section); position: absolute; left: 0; color: var(--Light_Grey); font-size: 24px;}
 .srch_cont .cnt h3 { font-size: 20px;}
+.srch_cont .cnt .nam_det {
+    font-size: 15px;
+}
 .srch_cont .cnt .nm { color: var(--Magenta);}
-.srch_cont .cnt .det_sr { position: absolute; right: 0; bottom: 0; }
+.srch_cont .cnt .det_sr { position: absolute; right: 0; bottom: 0; font-size: 15px; }
 .srch_cont .cnt .pr i { color: var(--Magenta);}
+section.whmnt {
+    /* padding-left: 1rem; */
+	border-top: solid 1px var(--Light_Grey);
+}
+section.whmnt h2 { font-size: 1rem;}
+section.whmnt .whofloe {
+	padding-left: 1rem;
+}
 
 
 /* ==== unlock membership page css ===== */

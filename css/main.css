@@ -307,6 +307,30 @@ section.cnctn_mn {
 .allhadv {
 	border-top: solid 1px var(--Light_Grey);
 }
+.recmn {
+	background: #ccc;
+}
+.recmn h3,
 .allhadv .svdcat h3 {
 	font-size: 1.25rem;
+	margin-bottom: 1.5rem;
 }
+.recmn .reclst:not(:last-child),
+.allhadv .svctls:not(:last-child) {
+	border-bottom: solid 1px var(--Light_Grey);
+	margin-bottom: 1rem;
+}
+.recmn .reclst .col .ay_button,
+.allhadv .svctls .col .ay_button {
+    font-size: .85rem;
+    padding: 0 5px;
+    border-radius: 4px;
+	color: var(--Magenta);
+	background-color: var(--Light_Pink);
+	border: var(--Light_Pink);
+}
+.recmn .reclst .col .ay_button {
+	color: var(--Grey);
+	padding: 0 15px;
+}
+

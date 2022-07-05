@@ -103,7 +103,14 @@ input.form-control.pln::placeholder {
 	background-size: cover;
 }
 .bg_v1 { background-image: url(../images/topbg-v1.png); background-size: 100%; background-position: center -30px;}
-
+.bg-v3 {
+	height: 500px;
+    position: absolute;
+    width: 100%;
+    background-image: url(../images/bg-v3.png);
+    z-index: -1;
+	background-size: cover;
+}
 
 /* nottom menu */
 .ht_full { position: relative; height: 100%; overflow: auto; padding-bottom: 50px;}

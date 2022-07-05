@@ -334,3 +334,32 @@ section.cnctn_mn {
 	padding: 0 15px;
 }
 
+
+/* === relationship page css ==== */
+.relchc { margin-top: 15vh;}
+.rlsn .reltxr p {
+    text-align: justify;
+    font-size: 1.46rem;
+    margin-top: 1.3rem;
+}
+.relmtch {
+	background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+	padding: .375rem .75rem;
+	border-radius: 0.6rem;
+    font-size: 18px;
+}
+.relmtch .pfp {
+	width: 15%;
+}
+.relmtch .relnm {
+	width: 60%;
+}
+.relchc .checkbtn {
+	color: #fff;
+	background-color: var(--Grey);
+	font-size: 1.2rem;
+	border-radius: 0.6rem;
+	padding: 0rem 1rem;
+}

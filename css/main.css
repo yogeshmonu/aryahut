@@ -4,58 +4,23 @@
 
 /*== login screen css ==*/
 .a_crd { border-radius: 1.5em; min-height: 230px; padding: 2.5rem 1.5rem; margin-bottom: 5rem !important; }
-.log_bottom {
-	/*position: absolute;
-	bottom: 50px;*/
-	text-align: center;
-}
+.log_bottom {text-align: center;}
 .log_bottom .ay_button { width: 250px; margin-top: 15px; }
 .log_bottom p { font-size: 10px; }
 .log_registr { padding: 25px; position: relative; height: 100%; }
 .log_registr .head_t p { font-size: 15px; }
 
 /*=== otp page css ====*/
-.otp_scr {
-	padding: 25px;
-}
 .hedr p { margin-top:3rem; font-size: 18px; }
-.otp_scr .hedr {
-	position: relative;
-}
-.otp_scr .hedr .go_back {
-	position: absolute;
-	left: 0;
-	top: 0;
-	font-size: 24px;
-}
-.otp_steps {
-	margin-bottom: 1.5rem;
-}
-.otp_steps .ot_step {
-	width: 33.33%;
-}
-.otp_steps .ot_step .stp_bar {
-	background: #fff;
-	height: 3px;
-}
-.otp_steps .ot_step .stp_bar.complete {
-	background: var(--Grey);
-}
-.oto_sec .o_t_p {
-	margin-bottom: 3rem;
-}
-.oto_sec .o_t_p .form-control {
-	border: none;
-	border-bottom: solid 1px var(--Magenta);
-	border-radius: 0;
-}
-.otp_custu_care {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(255,255,255,.5);
+.otp_scr .hedr {position: relative; margin-top: 2rem;}
+.otp_scr .hedr .go_back {position: absolute;left: 0;top: 0;font-size: 24px; }
+.otp_steps {margin-bottom: 1.5rem;}
+.otp_steps .ot_step {width: 33.33%;}
+.otp_steps .ot_step .stp_bar {background: #fff;height: 3px;}
+.otp_steps .ot_step .stp_bar.complete {	background: var(--Grey);}
+.oto_sec .o_t_p {margin-bottom: 3rem;}
+.oto_sec .o_t_p .form-control {	border: none;border-bottom: solid 1px var(--Magenta);	border-radius: 0;}
+.otp_custu_care { position: absolute; bottom: 0; left: 0;width: 100%;height: 100%; background: rgba(255,255,255,.5);
 }
 .otp_custu_care .inr { position: absolute; bottom: 0; background: var(--Light_Pink); width: 100%; padding: 25px;}
 span.clos { position: relative; top: -15px; left: 50%; height: 3px; display: block; background: var(--Grey); width: 40px; transform: translateX(-20px);}
@@ -73,8 +38,14 @@ span.clos { position: relative; top: -15px; left: 50%; height: 3px; display: blo
 
 
 /*== g-score instraction page css ===*/
-.g_scor_instr .instr h1{ font-size: 56px; font-style: italic; }
-.instr ul { list-style-type: decimal; padding-left: 20px; font-size: 18px; margin-bottom: 5rem;; }
+.g_scor_instr .instr h1{ font-size: 5rem; font-style: italic; }
+.instr ul { list-style-type: decimal; padding-left: 20px; font-size: 18px; margin-bottom: 5rem; }
+.instr ul li { font-size: 1.2rem; line-height: 1.6;}
+.instr .ay_button {
+    padding: 4px 2rem;
+    border-radius: 0.3rem;
+    font-size: 1.5rem;
+}
 
 
 /* ==== search page css ===== */
@@ -86,20 +57,13 @@ span.clos { position: relative; top: -15px; left: 50%; height: 3px; display: blo
 .srch_cont ul li { list-style: none; padding-left: 35px; position: relative; margin-bottom: 1.5rem;}
 .srch_cont ul li::before { counter-increment: section; content: counter(section); position: absolute; left: 0; color: var(--Light_Grey); font-size: 24px;}
 .srch_cont .cnt h3 { font-size: 20px;}
-.srch_cont .cnt .nam_det {
-    font-size: 15px;
-}
+.srch_cont .cnt .nam_det { font-size: 15px;}
 .srch_cont .cnt .nm { color: var(--Magenta);}
 .srch_cont .cnt .det_sr { position: absolute; right: 0; bottom: 0; font-size: 15px; }
 .srch_cont .cnt .pr i { color: var(--Magenta);}
-section.whmnt {
-    /* padding-left: 1rem; */
-	border-top: solid 1px var(--Light_Grey);
-}
+section.whmnt {	border-top: solid 1px var(--Light_Grey);}
 section.whmnt h2 { font-size: 1rem;}
-section.whmnt .whofloe {
-	padding-left: 1rem;
-}
+section.whmnt .whofloe {padding-left: 1rem;}
 
 
 /* ==== unlock membership page css ===== */
@@ -115,46 +79,22 @@ section.whmnt .whofloe {
 
 
 /* ==== user role css ===== */
-.prftl { background-image: url(../images/darkbg.png);
-	background-size: 100%;
-    background-position: top 0px center;}
+.prftl { background-image: url(../images/darkbg.png);background-size: 100%; background-position: top 0px center;}
 .prdt .aydp img { border-radius: 50%; object-fit: cover; }
 .dtpan { border-radius: .8rem; padding: .5rem; }
 .dtpan p, .dtpan a { font-size: 18px; margin: 10px 0; display: block;} 
 .dtpan a { color: var(--Magenta); text-decoration: none;}
-.usr_rl .sc_wrp { }
 .usr_rl .sc_wrp .lp_ar { background-color: rgba(255,255,255,.5); }
 .sc_wrp .lp_ar .tim { text-align: center; font-size: .8rem; }
 .sc_wrp .lp_ar .erj { background-color: var(--Grey); border: solid 2px var(--Magenta); font-size: .8rem;
     line-height: 1; color: #fff; width: 50px; height: 50px; border-radius: 50%; text-align: center; position: relative; }
 .sc_wrp .lp_ar .ttl a { font-size: 1.5rem; text-decoration: none; }
-.sc_wrp .lp_ar .erj::after {
-    content: '';
-    display: block;
-    height: 10px;
-    width: 1px;
-    background: rebeccapurple;
-    position: absolute;
-    bottom: -11px;
-    left: 50%;
-}
-.sc_wrp .lp_ar .erj::before {
-    content: '';
-    display: block;
-    height: 10px;
-    width: 1px;
-    background: rebeccapurple;
-    position: absolute;
-    top: -11px;
-    left: 50%;
-}
-
+.sc_wrp .lp_ar .erj::after {content: ''; display: block; height: 10px; width: 1px; background: rebeccapurple; position: absolute; bottom: -11px;left: 50%;}
+.sc_wrp .lp_ar .erj::before {content: ''; display: block; height: 10px; width: 1px;background: rebeccapurple; position: absolute; top: -11px; left: 50%;}
 
 
 /* === details page css === */
-.dtls h2 {
-    margin-top: -35px;
-}
+.dtls h2 { margin-top: -35px;}
 .dtls { margin-top: 10vh; background: rgb(255,24,203);
 	background: linear-gradient(0deg, rgba(255,24,203,0.5592814241902212) 0%, rgba(255,255,255,0.6744499635160639) 100%, rgba(255,255,255,0.7783825477857268) 100%);}
 .sgrd input[type=radio],
@@ -201,28 +141,15 @@ section.cnctn_mn {
 .cntt_crs .nav .nav-link { padding: 0; margin: 0; border: none; border-bottom: solid 3px var(--Grey); padding-bottom: 7px; color: var(--Grey);}
 .cntt_crs .nav .nav-link.active { border-bottom: solid 3px var(--Magenta); background: none; }
 .ct_ls_dt .dscr > span{ margin: 0px 5px; }
-.ct_ls_dt button.ay_button {
-    font-size: 1em;
-    padding: 0 9px;
-    margin-top: 10px;
-}
+.ct_ls_dt button.ay_button { font-size: 1em; padding: 0 9px; margin-top: 10px;}
 .al_cr_ls .cr_ls { background: var(--Light_Grey);}
-.al_cr_ls .cr_ls h3 {
-    font-size: 20px;
-    margin: 0;
-}
+.al_cr_ls .cr_ls h3 { font-size: 20px; margin: 0;}
 .cr_ls .cr_ch {  margin: 8px 15px 3px 0px; width: 30px; height: 30px; border-radius: 50%; background-color: #fff; font-size: 20px; }
 .cr_ls .cr_ch.chck { font-size: 21px; color: var(--Magenta); font-weight: 700; }
 .mnt_oc > img { width: 30px; height: 30px; border-radius: 50%;}
 .al_cr_ls .cr_ls.mnt_ls p,
 .al_cr_ls .cr_ls.mnt_ls h3 { padding-left: 25px; position: relative;}
-.al_cr_ls .cr_ls.mnt_ls h3::before {
-	content: 'M';
-	position: absolute;
-	left: 0;
-	top: 2px; color: var(--Magenta); font-size: 16px; padding: 2px; text-align: center;
-	border: solid 1px var(--Grey); line-height: 1;
-}
+.al_cr_ls .cr_ls.mnt_ls h3::before {content: 'M';position: absolute;left: 0;top: 2px; color: var(--Magenta); font-size: 16px; padding: 2px; text-align: center;	border: solid 1px var(--Grey); line-height: 1;}
 .al_cr_ls .cr_ls.mnt_ls .grd { color: var(--Magenta);}
 
 
@@ -232,10 +159,7 @@ section.cnctn_mn {
 .bg_v1.ac_sett .main_menu { height: 200px; }
 .bg_v1.ac_sett .dtls { margin-top: 10px; height: calc(100% - 200px);}
 .bg_v1.ac_sett .profile-pic {margin-top: -55px; margin-bottom: 35px;}
-.bg_v1.ac_sett .dtls legend {
-    font-size: 1em;
-    color: var(--Magenta);
-}
+.bg_v1.ac_sett .dtls legend { font-size: 1em; color: var(--Magenta);}
 
 /* badge page css */
 .bdg_log {margin-top: -150px;}
@@ -246,14 +170,7 @@ section.cnctn_mn {
 
 /* == enrolled and save === */
 .enlst .cten h2{margin-top: .7rem;}
-.enlst .cten h2::after {
-    content: '';
-    width: 35px;
-    height: 1px;
-    background: rebeccapurple;
-    display: block;
-    margin-top: 7px;
-}
+.enlst .cten h2::after { content: ''; width: 35px; height: 1px; background: rebeccapurple; display: block; margin-top: 7px;}
 .cten .crsh {
     width: 80%;
     float: left;

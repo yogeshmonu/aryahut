@@ -170,7 +170,7 @@ section.cnctn_mn {
 .crc_cnt .hd_opt span { margin: 0 5px;}
 .crc_cnt .hd_opt span.bkmr > a,
 .crc_cnt .hd_opt span.bkmr { font-size: 1.2rem !important; margin-top: 7px;}
-.cntt_crs .nav .nav-link { padding: 0; margin: 0; border: none; border-bottom: solid 3px var(--Grey); padding-bottom: 7px; color: var(--Grey);}
+.cntt_crs .nav .nav-link {font-size: 22px; padding: 0; margin: 0; border: none; border-bottom: solid 3px var(--Grey); padding-bottom: 7px; color: var(--Grey);}
 .cntt_crs .nav .nav-link.active { border-bottom: solid 3px var(--Magenta); background: none; }
 .ct_ls_dt .dscr > span{ margin: 0px 5px; }
 .ct_ls_dt button.ay_button { font-size: 1em; padding: 0 9px; margin-top: 10px;}
@@ -271,8 +271,11 @@ a.uplnk {
 .svcnt .cgav p > span{
 	color: var(--Magenta);
 }
+.svcnt .svcntldt .cgav p {
+	font-size: 16px;
+}
 .svcnt .svcntldt .cgav h3 {
-	font-size: 1.3rem;
+	font-size: 1.4rem;
 }
 .svcnt .svcntldt { 
 	border-bottom: solid 1px var(--Light_Grey) ; padding-bottom: .4rem;     margin-bottom: 15px;

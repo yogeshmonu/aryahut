@@ -110,14 +110,26 @@ section.whmnt .whofloe .flws h4 {
 
 /* ==== unlock membership page css ===== */
 .Unl_memb .hdr { margin-bottom: 1rem; padding: 1rem;}
-.Unl_memb .hdr .hlp a { margin: 0 5px; background-color: var(--Magenta); font-size: 14px; padding: 2px 10px; border-radius: 4px; color: #fff;}
-.Unl_memb .hdr .clos span { font-size: 1.3rem; }
-.Unl_memb .hdr .clos a { text-decoration: none; }
+.Unl_memb .hdr .hlp a { margin: 0 5px; text-decoration: none; background-color: var(--Magenta); font-size: 14px; padding: 2px 10px; border-radius: 4px; color: #fff;}
+.Unl_memb .hdr .clos span { font-size: 1.5rem; }
+.Unl_memb .hdr .clos a { text-decoration: none; margin-left: 10px; }
 .Unl_memb .mam_cont { padding: 1rem; }
+.Unl_memb .mam_cont h3 {
+    font-size: 2.3rem;
+    margin-bottom: 26px;
+}
 .Unl_memb .mam_cont ul {padding: 0;}
 .Unl_memb .mam_cont ul li { font-size: 18px; list-style: none; position: relative; padding-left: 20px; margin-bottom: 1rem; }
 .Unl_memb .mam_cont ul li::before { content: "\F309"; left: -10px; color: var(--Magenta); top:-10px; font-family: bootstrap-icons !important; font-size: 2rem; position: absolute;}
-.Unl_memb .mam_cont .btngt { margin-top: 4rem; }
+.Unl_memb .mam_cont .btngt {
+    position: absolute;
+    bottom: 134px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.Unl_memb .mam_cont .btngt .ay_button {
+    padding: 10px 50px;
+}
 
 
 /* ==== user role css ===== */

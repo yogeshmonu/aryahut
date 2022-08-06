@@ -81,20 +81,31 @@ span.clos { position: relative; top: -15px; left: 50%; height: 3px; display: blo
 
 /* ==== search page css ===== */
 .srh_hd { padding: 1rem;}
-.srch_pg .srh_hd h1 { font-size: 24px; margin-bottom: 15px;}
+.srch_pg .srh_hd h1 { font-size: 28px; margin-bottom: 20px;}
 .tagss { padding-left: 10px; padding-bottom: 1rem; margin-top: 3rem;}
-.tagss a { margin: 0 5px; background-color: var(--Light_Pink); font-size: 10px; padding: 2px 10px; border-radius: 4px;}
+.tagss a { margin: 0 5px; background-color: var(--Light_Pink); font-size: 12px; padding: 2px 10px; border-radius: 4px;}
 .srch_cont h2 { font-size: 18px; margin-bottom: 1.7rem;}
 .srch_cont ul li { list-style: none; padding-left: 35px; position: relative; margin-bottom: 1.5rem;}
 .srch_cont ul li::before { counter-increment: section; content: counter(section); position: absolute; left: 0; color: var(--Light_Grey); font-size: 24px;}
-.srch_cont .cnt h3 { font-size: 20px;}
-.srch_cont .cnt .nam_det { font-size: 15px;}
+.srch_cont .cnt h3 { font-size: 22px;}
+.srch_cont .cnt .nam_det { font-size: 16px;}
 .srch_cont .cnt .nm { color: var(--Magenta);}
-.srch_cont .cnt .det_sr { position: absolute; right: 0; bottom: 0; font-size: 15px; }
+.srch_cont .cnt .det_sr { position: absolute; right: 0; bottom: 0; font-size: 16px; }
 .srch_cont .cnt .pr i { color: var(--Magenta);}
 section.whmnt {	border-top: solid 1px var(--Light_Grey);}
 section.whmnt h2 { font-size: 1rem;}
 section.whmnt .whofloe {padding-left: 1rem;}
+section.whmnt .whofloe .flws h4::before {
+	content: 'M';
+    border: solid 1px var(--Grey);
+    line-height: 1;
+    color: var(--Magenta);
+    margin-right: 4px;
+    padding: 0 3px;
+}
+section.whmnt .whofloe .flws h4 {
+    font-size: 18px;
+}
 
 
 /* ==== unlock membership page css ===== */

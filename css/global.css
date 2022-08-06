@@ -41,12 +41,12 @@ a { color: var(--Grey) }
 
 /*== buttons and inputs ==*/
 .ay_button {
-	color: #fff;
-	border: solid 1px var(--Magenta);
-	background: var(--Magenta);
-	padding: 4px 15px;
-	font-size: 22px;
-	border-radius: .6rem;
+    color: #fff;
+    border: solid 1px var(--Magenta);
+    background: var(--Magenta);
+    padding: 6px 25px;
+    font-size: 25px;
+    border-radius: .6rem;
 }
 input.form-control.pln {
     background: no-repeat;
@@ -159,14 +159,14 @@ input.form-control.pln::placeholder {
 	display: none;
   }
   .profile-pic img {
-	position: absolute;
-	object-fit: cover;
-	width: 65px;
-	height: 65px;
-	box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.35);
-	border-radius: 100px;
-	z-index: 0;
-  }
+    position: absolute;
+    object-fit: cover;
+    width: 75px;
+    height: 75px;
+    box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.35);
+    border-radius: 100px;
+    z-index: 0;
+}
   .profile-pic .-label {
 	cursor: pointer;
 	height: 65px;
@@ -191,4 +191,8 @@ input.form-control.pln::placeholder {
 
   .mgnta {
 	color: var(--Magenta);
+  }
+  .uln {
+	border-bottom: solid 1px var(--Light_Grey);
+	display: inline;
   }

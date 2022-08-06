@@ -190,16 +190,40 @@ section.cnctn_mn {
 .bg_v1.ac_sett { height: 100%;}
 .bg_v1.ac_sett .main_menu { height: 200px; }
 .bg_v1.ac_sett .dtls { margin-top: 10px; height: calc(100% - 200px);}
-.bg_v1.ac_sett .profile-pic {margin-top: -55px; margin-bottom: 35px;}
+.bg_v1.ac_sett .profile-pic {
+    margin-top: -94px;
+    margin-bottom: 35px;
+}
 .bg_v1.ac_sett .dtls legend { font-size: 1em; color: var(--Magenta);}
-
+.upbrt {
+    position: relative;
+}
+a.uplnk {
+    position: absolute;
+    right: 0;
+    top: 7px;
+	color: var(--Magenta);
+	text-decoration: none;
+}
+.mb-3.text-center.mt-5.fx__btns {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
 /* badge page css */
 .bdg_log {margin-top: -150px;}
 .clnd { margin-top: 25px;}
 .clnd .dt{ font-size: 5rem; color: var(--Magenta); border-bottom: solid 1px var(--Light_Grey); }
 .clnd p { font-size: 1.5rem;}
-
-
+.bdg,
+.bdg > a {
+	display: block;
+	width: 100%;
+}
+.bgth > span {
+    font-size: 30px;
+}
 /* == enrolled and save === */
 .enlst .cten h2{margin-top: .7rem;}
 .enlst .cten h2::after { content: ''; width: 35px; height: 1px; background: rebeccapurple; display: block; margin-top: 7px;}

@@ -128,11 +128,23 @@ input.form-control.pln::placeholder {
 .ht_full .mnu a.active { color: var(--Magenta);}
 
 /* main menu */
-.notf { margin-right: 1rem; margin-top: -10px; margin-top: 15px !important; display: block; float: left;}
+.notf { margin-right: 1rem; position: relative; margin-top: -10px; margin-top: 15px !important; display: block; float: left;}
 .main_menu .mn_tr {
     padding: .5rem;
     padding-right: 1rem!important;
     padding-left: 1rem!important;
+}
+.notf.actv > i::after {
+  content: '';
+  display: block;
+  width: 8px;
+  height: 8px;
+  background: var(--Magenta);
+  border-radius: 4px;
+  position: absolute;
+  bottom: 4px;
+  z-index: 0;
+  left: -3px;
 }
 .main_menu .mn_tr a { font-size: 2.5rem; }
 .mnu_itm a { text-decoration: none;}

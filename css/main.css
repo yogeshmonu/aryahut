@@ -187,7 +187,7 @@ section.cnctn_mn {
 
 /* === cource content page === */
 .crc_cnt { position: relative;}
-.crc_cnt .pic_mttr { max-height: 250px; overflow: hidden; padding-top: 70%; background-size: cover; position: relative;}
+.crc_cnt .pic_mttr { max-height: 250px; overflow: hidden; padding-top: 70%; background-size: 100%; position: relative; background-attachment: fixed;}
 .crc_cnt .pic_mttr::after { content: ''; display: block; height: 100%; width: 100%; position: absolute; top: 0; background: rgb(255,255,255);
 	background: linear-gradient(0deg, rgba(255,255,255,0.8851241208194347) 0%, rgba(255,255,255,0) 100%, rgba(255,255,255,0.7783825477857268) 100%);}
 .crc_cnt .hd_opt { position:absolute; width: 100%; top: 20px; }
@@ -198,9 +198,12 @@ section.cnctn_mn {
 .crc_cnt .hd_opt span.bkmr { font-size: 1.2rem !important; margin-top: 7px;}
 .cntt_crs .nav .nav-link {font-size: 22px; padding: 0; margin: 0; border: none; border-bottom: solid 3px var(--Grey); padding-bottom: 7px; color: var(--Grey);}
 .cntt_crs .nav .nav-link.active { border-bottom: solid 3px var(--Magenta); background: none; }
+.ct_ls_dt .ls_hd {
+    margin-bottom: 30px;
+}
 .ct_ls_dt .dscr > span{ margin: 0px 5px; }
 .ct_ls_dt button.ay_button { font-size: 1em; padding: 0 9px; margin-top: 10px;}
-.al_cr_ls .cr_ls { background: var(--Light_Grey);}
+.al_cr_ls .cr_ls { background: #f1f1f1;}
 .al_cr_ls .cr_ls h3 { font-size: 20px; margin: 0;}
 .cr_ls .cr_ch {  margin: 8px 15px 3px 0px; width: 30px; height: 30px; border-radius: 50%; background-color: #fff; font-size: 20px; }
 .cr_ls .cr_ch.chck { font-size: 21px; color: var(--Magenta); font-weight: 700; }
@@ -209,7 +212,7 @@ section.cnctn_mn {
 .al_cr_ls .cr_ls.mnt_ls h3 { padding-left: 25px; position: relative;}
 .al_cr_ls .cr_ls.mnt_ls h3::before {content: 'M';position: absolute;left: 0;top: 2px; color: var(--Magenta); font-size: 16px; padding: 2px; text-align: center;	border: solid 1px var(--Grey); line-height: 1;}
 .al_cr_ls .cr_ls.mnt_ls .grd { color: var(--Magenta);}
-
+.mlt_qsss .radiobtn { top: 5px;}
 
 
 /* === account setting page  */

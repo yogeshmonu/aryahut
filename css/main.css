@@ -37,9 +37,15 @@
 .a_crd { border-radius: 1.5em; min-height: 230px; padding: 2.5rem 1.5rem; margin-bottom: 5rem !important; }
 .log_bottom {text-align: center;}
 .log_bottom .ay_button { width: 250px; margin-top: 15px; }
-.log_bottom p { font-size: 10px; }
-.log_registr { padding: 25px; position: relative; height: 100%; }
-.log_registr .head_t p { font-size: 15px; }
+.log_bottom p { font-size: 12px; }
+.log_registr .head_t {margin-top: 6rem;}
+.log_registr .head_t p {
+    font-size: 24px;
+    margin: 40px 3px;
+}
+.log_syihn {
+
+}
 
 /*=== otp page css ====*/
 .hedr p { margin-top:3rem; font-size: 18px; }

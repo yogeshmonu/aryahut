@@ -136,7 +136,7 @@ section.whmnt .whofloe .flws h4 {
 .prftl { background-image: url(../images/darkbg.png);background-size: 100%; background-position: top 0px center;}
 .prdt .aydp img { border-radius: 50%; object-fit: cover; }
 .dtpan { border-radius: .8rem; padding: .5rem; }
-.dtpan > div { border-color: var(--Grey) !important; }
+.dtpan > div { border-color: var(--Grey) !important; padding: 10px 2px; }
 .dtpan p, .dtpan a { font-size: 18px; margin: 10px 0; display: block;} 
 .dtpan a { color: var(--Magenta); text-decoration: none;}
 .usr_rl .sc_wrp .lp_ar { background-color: rgba(255,255,255,.5); }
@@ -146,7 +146,10 @@ section.whmnt .whofloe .flws h4 {
 .sc_wrp .lp_ar .ttl a { font-size: 1.5rem; text-decoration: none; }
 .sc_wrp .lp_ar .erj::after {content: ''; display: block; height: 10px; width: 1px; background: rebeccapurple; position: absolute; bottom: -11px;left: 50%;}
 .sc_wrp .lp_ar .erj::before {content: ''; display: block; height: 10px; width: 1px;background: rebeccapurple; position: absolute; top: -11px; left: 50%;}
-
+audio::-webkit-media-controls-timeline,
+video::-webkit-media-controls-timeline {
+    display: none;
+}
 
 /* === details page css === */
 .dtls h2 { margin-top: -35px;}

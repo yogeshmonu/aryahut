@@ -213,6 +213,8 @@ section.cnctn_mn {
 .al_cr_ls .cr_ls.mnt_ls h3::before {content: 'M';position: absolute;left: 0;top: 2px; color: var(--Magenta); font-size: 16px; padding: 2px; text-align: center;	border: solid 1px var(--Grey); line-height: 1;}
 .al_cr_ls .cr_ls.mnt_ls .grd { color: var(--Magenta);}
 .mlt_qsss .radiobtn { top: 5px;}
+.mlt_qsss fieldset { margin-bottom: 30px;}
+.mlt_qsss > h3 { text-decoration: underline; margin-top: 25px; font-size: 1.7rem;}
 
 
 /* === account setting page  */

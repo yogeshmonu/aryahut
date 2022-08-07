@@ -74,7 +74,7 @@ span.clos { position: relative; top: -15px; left: 50%; height: 3px; display: blo
 
 
 /*== g-score instraction page css ===*/
-.g_scor_instr .instr h1{ font-size: 5rem; font-style: italic; }
+.g_scor_instr .instr h1{ font-size: 4rem; font-style: italic; }
 .instr ul { list-style-type: decimal; padding-left: 20px; font-size: 18px; margin-bottom: 5rem; }
 .instr ul li { font-size: 1.2rem; line-height: 1.6;}
 .instr .ay_button {

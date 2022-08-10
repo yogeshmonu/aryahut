@@ -34,7 +34,7 @@
 
 
 /*== login screen css ==*/
-.a_crd { border-radius: 1.5em; min-height: 230px; padding: 2.5rem 1.5rem; margin-bottom: 5rem !important; }
+.a_crd { border-radius: 1.5em; background: #fff; min-height: 230px; padding: 2.5rem 1.5rem; margin-bottom: 5rem !important; }
 .log_bottom {text-align: center;}
 .log_bottom .ay_button { width: 250px; margin-top: 15px; }
 .log_bottom p { font-size: 12px; }

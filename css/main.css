@@ -56,7 +56,7 @@
 .otp_steps .ot_step .stp_bar {background: #fff;height: 3px;}
 .otp_steps .ot_step .stp_bar.complete {	background: var(--Grey);}
 .oto_sec .o_t_p {margin-bottom: 3rem;}
-.oto_sec .o_t_p .form-control {	border: none; background: none; border-bottom: solid 1px var(--Magenta);	border-radius: 0;}
+.oto_sec .o_t_p .form-control {	border: none; background: none; border-bottom: solid 1px var(--Magenta);	border-radius: 0; font-size: 24px; color: var(--Magenta);}
 .otp_custu_care { position: absolute; bottom: 0; left: 0;width: 100%;height: 100%; background: rgba(255,255,255,.5);
 }
 .otp_custu_care .inr { position: absolute; bottom: 0; background: var(--Light_Pink); width: 100%; padding: 25px;}

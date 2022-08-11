@@ -48,19 +48,21 @@
 }
 
 /*=== otp page css ====*/
-.hedr p { margin-top:3rem; font-size: 18px; }
-.otp_scr .hedr {position: relative; margin-top: 2rem;}
+.hedr p { margin-top:5rem; font-size: 24px; }
+.otp_scr .hedr {position: relative; margin-top: 3rem;}
 .otp_scr .hedr .go_back {position: absolute;left: 0;top: 0;font-size: 24px; }
 .otp_steps {margin-bottom: 1.5rem;}
 .otp_steps .ot_step {width: 33.33%;}
 .otp_steps .ot_step .stp_bar {background: #fff;height: 3px;}
 .otp_steps .ot_step .stp_bar.complete {	background: var(--Grey);}
 .oto_sec .o_t_p {margin-bottom: 3rem;}
-.oto_sec .o_t_p .form-control {	border: none;border-bottom: solid 1px var(--Magenta);	border-radius: 0;}
+.oto_sec .o_t_p .form-control {	border: none; background: none; border-bottom: solid 1px var(--Magenta);	border-radius: 0;}
 .otp_custu_care { position: absolute; bottom: 0; left: 0;width: 100%;height: 100%; background: rgba(255,255,255,.5);
 }
 .otp_custu_care .inr { position: absolute; bottom: 0; background: var(--Light_Pink); width: 100%; padding: 25px;}
 span.clos { position: relative; top: -15px; left: 50%; height: 3px; display: block; background: var(--Grey); width: 40px; transform: translateX(-20px);}
+.oto_sec .det_trg { font-size: 28px;}
+
 
 /*== g-score page css ==*/
 .opt { width: 76%; float: left; font-size: 16px; }

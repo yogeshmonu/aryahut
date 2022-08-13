@@ -398,3 +398,15 @@ a.uplnk {
 	border-radius: 0.6rem;
 	padding: 0rem 1rem;
 }
+
+
+/* Course-Category-listing */
+.cr_ls_dt .flwww .ay_button {
+    font-size: 16px;
+    background-color: var(--Light_Pink);
+    border-color: var(--Light_Pink);
+    color: var(--Grey);
+    padding: 0;
+    padding: 3px 10px;
+    border-radius: 5px;
+}

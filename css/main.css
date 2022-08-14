@@ -132,12 +132,6 @@ section.whmnt .whofloe .flws h4 {
 .Unl_memb .mam_cont ul {padding: 0;}
 .Unl_memb .mam_cont ul li { font-size: 18px; list-style: none; position: relative; padding-left: 20px; margin-bottom: 1rem; }
 .Unl_memb .mam_cont ul li::before { content: "\F309"; left: -10px; color: var(--Magenta); top:-10px; font-family: bootstrap-icons !important; font-size: 2rem; position: absolute;}
-.Unl_memb .mam_cont .btngt {
-    position: absolute;
-    bottom: 134px;
-    left: 50%;
-    transform: translateX(-50%);
-}
 .Unl_memb .mam_cont .btngt .ay_button {
     padding: 10px 50px;
 }

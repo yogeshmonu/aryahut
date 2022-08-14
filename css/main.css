@@ -160,8 +160,9 @@ video::-webkit-media-controls-timeline {
 }
 
 /* === details page css === */
-.dtls h2 { margin-top: -35px;}
-.dtls { margin-top: 10vh; background: rgb(255,24,203);
+.dt_cnt h2 { font-size: 32px; text-decoration: underline;}
+.dt_cnt { margin-top: 60px; }
+.dtls { background: rgb(255,24,203);
 	background: linear-gradient(0deg, rgba(255,24,203,0.5592814241902212) 0%, rgba(255,255,255,0.6744499635160639) 100%, rgba(255,255,255,0.7783825477857268) 100%);}
 .sgrd input[type=radio],
 .gndr input[type=radio] { position: absolute; opacity: 0; }
@@ -169,7 +170,9 @@ video::-webkit-media-controls-timeline {
 .sgrd .radio-label { border: solid 1px var(--Grey); border-radius: 4px; padding: 0 10px; margin-top: 5px;}
 .sgrd input[type=radio]:checked + .radio-label { background-color: var(--Magenta); color: #fff; }
 .nmtg input { border: none; border-bottom: solid 1px var(--Grey); background: transparent; }
-.dtbtm { margin-top: 15vh;}
+.dtbtm { margin-top: 15vh; margin-bottom: 80px;}
+.dtbtm .ay_button { padding: 7px 20px; font-size: 20px; line-height: 1.2; }
+.dtbtm a { text-decoration: none;}
 
 
 /* === Connections page css === */
@@ -409,4 +412,14 @@ a.uplnk {
     padding: 0;
     padding: 3px 10px;
     border-radius: 5px;
+}
+
+
+
+
+/* responsive css */
+@media only screen and (max-width:500px) {
+    .dt_bg_fl { min-height: 100vh;}
+    .dtls { position: absolute; width: 100%; bottom: 0; }
+    .dtbtm { margin-top: 25vh; }
 }

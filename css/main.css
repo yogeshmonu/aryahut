@@ -69,10 +69,13 @@ span.clos { position: relative; top: -15px; left: 50%; height: 3px; display: blo
 .otp_scr h1 { font-size: 30px; margin-bottom: 2rem; }
 .fst, .last { width: 12%; float: left; font-size: 16px; }
 .qstn ol { padding: 0; }
-.qstn ol li { width: 100%; list-style: lower-alpha; float: left; font-size: 16px; }
+.qstn ol li { width: 100%; list-style: lower-alpha; float: left; font-size: 16px; margin-bottom: 10px; }
 .qstn { margin-bottom: 1rem; width: 100%; float: left; }
 .parnt_ul { padding-left: 20px; font-size: 20px; }
 .parnt_ul > li { list-style: decimal; }
+.qstn .hdr { margin-bottom: 10px;}
+.qstn .hdr > div { font-size: 22px;}
+.otp_scr legend { font-size: 25px;}
 
 
 /*== g-score instraction page css ===*/

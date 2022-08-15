@@ -62,7 +62,7 @@ input.form-control.pln::placeholder {
   input.form-control.pln::-ms-input-placeholder { /* Microsoft Edge */
    color: var(--Magenta);
   }
-.form-control {	border-radius: .6rem; font-size: 18px; padding: .5rem .75rem; }
+.form-control {	border-radius: .6rem; font-size: 18px; padding: .6rem .75rem; }
 .checkcontainer { display: block; position: relative; padding-left: 35px; margin-bottom: 12px; cursor: pointer;}
 .checkcontainer input { position: absolute; opacity: 0; cursor: pointer; }
 .radiobtn {

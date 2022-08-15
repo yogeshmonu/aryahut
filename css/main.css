@@ -262,7 +262,7 @@ a.uplnk {
 .badges_slid h1 { line-height: 2;}
 /* == enrolled and save === */
 .enlst .cten h2{margin-top: .7rem;}
-.enlst .cten h2::after { content: ''; width: 35px; height: 1px; background: rebeccapurple; display: block; margin-top: 7px;}
+.enlst .cten h2::after { content: ''; width: 35px; height: 1px; background: var(--Magenta); display: block; margin-top: 7px;}
 .cten .crsh { width: 80%; float: left;}
 .cten .crsh p {
 	font-size: 1.2rem;

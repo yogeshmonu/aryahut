@@ -13,7 +13,7 @@ body {
   --Light_Magenta : #ff33ff;
   --Magenta: #eb268f;
   --Grey: #433c63;
-  --Light_Grey: #b3b3b3;
+  --Light_Grey: #fbe4ee;
 }
 
 .ar_shadow {
@@ -101,7 +101,7 @@ input.form-control.pln::placeholder {
     z-index: -1;
 	background-size: cover;
 }
-.bg_v1 { background-image: url(../images/topbg-v1.png); background-size: 100%; background-position: center -30px;}
+.bg_v1 { background-image: url(../images/topbg-v1.png); background-size: 100%; background-repeat: no-repeat; background-position: center -30px;}
 .bg-v3 {
 	height: 500px;
     position: fixed;
@@ -109,6 +109,7 @@ input.form-control.pln::placeholder {
     background-image: url(../images/bg-v3.png);
     z-index: -1;
 	background-size: cover;
+  background-repeat: no-repeat;
 }
 .bg-v4 {
 	height: 100vh;
@@ -118,9 +119,17 @@ input.form-control.pln::placeholder {
     z-index: -1;
 	background-size: cover;
   top: 0;
+  background-repeat: no-repeat;
 }
 
 /* nottom menu */
+.mnu {
+  position: fixed;
+  border: 0;
+  bottom: 0;
+  width: 100%;
+  background: #fff;
+}
 .ht_full { position: relative; height: 100%; overflow: auto; padding-bottom: 50px;}
 .ht_full .mnu {z-index: 1; position: fixed; bottom: 0; width: 100%; background: #fff; border-top: solid 1px var(--Light_Grey); }
 .ht_full .mnu a { font-size: 1.7rem;}

@@ -146,7 +146,7 @@ input.form-control.pln::placeholder {
   z-index: 0;
   left: -3px;
 }
-.main_menu .mn_tr a { font-size: 2.5rem; }
+.main_menu .mn_tr a { font-size: 2.5rem; text-decoration: none; }
 .mnu_itm a { text-decoration: none;}
 .mnu_itm small { font-size: 12px;}
 .mnu_itm { margin-bottom: 10px;}

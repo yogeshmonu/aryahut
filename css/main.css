@@ -231,8 +231,8 @@ section.cnctn_mn {
 .bg_v1.ac_sett .main_menu { height: 200px; }
 .bg_v1.ac_sett .dtls { margin-top: 10px; height: calc(100% - 200px);}
 .bg_v1.ac_sett .profile-pic {
-    margin-top: -94px;
-    margin-bottom: 35px;
+    margin-top: -60px;
+    margin-bottom: 80px;
 }
 .bg_v1.ac_sett .dtls legend { font-size: 1em; color: var(--Magenta);}
 .upbrt {

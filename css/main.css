@@ -414,6 +414,13 @@ a.uplnk {
 }
 
 
+/* privacy policy page */
+.prv_pol { position: relative;}
+.pp_cnt h2 { font-size: 22px; border-bottom: solid 1px var(--bs-gray); line-height: 1.5; display: inline-block; }
+.pp_cnt p { line-height: 1.6; font-size: 18px;}
+.pp_cnt .sn_cnt { margin-bottom: 30px;}
+.prv_pol span.ppl_clos { position: absolute; top: 20px; right: 20px;}
+
 
 
 /* responsive css */

@@ -73,9 +73,7 @@ input.form-control.pln::placeholder {
 	width: 15px;border-radius: 50%;
 	border: solid 1px var(--Grey);
 }
-.checkcontainer input:checked ~ .radiobtn {
-	background: var(--Magenta);
-}
+.checkcontainer input:checked ~ .radiobtn { background: var(--Magenta);}
 .checkcontainer input {
 	position: absolute;
 	opacity: 0;
@@ -85,42 +83,11 @@ input.form-control.pln::placeholder {
 
 
 /* == top background css ==== */
-.bg-v2 {
-    height: 200px;
-    position: absolute;
-    width: 100%;
-    background-image: url(../images/bg2.png);
-    z-index: -1;
-	background-size: cover;
-}
-.bg-v1 {
-    height: 250px;
-    position: absolute;
-    width: 100%;
-    background-image: url(../images/topbg-v1.png);
-    z-index: -1;
-	background-size: cover;
-}
+.bg-v2 {  height: 200px;  position: absolute;  width: 100%; background-image: url(../images/bg2.png); z-index: -1;	background-size: cover;}
+.bg-v1 { height: 250px;  position: absolute; width: 100%; background-image: url(../images/topbg-v1.png);z-index: -1;	background-size: cover;}
 .bg_v1 { background-image: url(../images/topbg-v1.png); background-size: 100%; background-repeat: no-repeat; background-position: center -30px;}
-.bg-v3 {
-	height: 500px;
-    position: fixed;
-    width: 100%;
-    background-image: url(../images/bg-v3.png);
-    z-index: -1;
-	background-size: cover;
-  background-repeat: no-repeat;
-}
-.bg-v4 {
-	height: 100vh;
-    position: absolute;
-    width: 100%;
-    background-image: url(../images/bg-v4.png);
-    z-index: -1;
-	background-size: cover;
-  top: 0;
-  background-repeat: no-repeat;
-}
+.bg-v3 { height: 500px; position: fixed; width: 100%; background-image: url(../images/bg-v3.png); z-index: -1;	background-size: cover; background-repeat: no-repeat;}
+.bg-v4 { height: 100vh; position: absolute; width: 100%; background-image: url(../images/bg-v4.png); z-index: -1; background-size: cover; top: 0; background-repeat: no-repeat;}
 
 /* nottom menu */
 .mnu {

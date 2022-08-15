@@ -311,14 +311,18 @@ a.uplnk {
 	text-decoration: none;
 } 	
 .svcnt .imghb { 
-	width: 22%;
+	width: 25%;
 	float: left;
 }
-.svcnt .imghb > img {margin-top: 10px;} 
+.svcnt .imghb > img {    margin-top: 20px;
+    width: 85px;
+    margin-bottom: 20px;
+    max-height: 50px;
+    object-fit: cover; } 
 .svcnt .cgav { 
-	width: 78%;
+	width: 75%;
 	float: left;
-	padding-left: 15px;
+	padding-left: 30px;
 }
 .svcnt .cgav p > span{
 	color: var(--Magenta);

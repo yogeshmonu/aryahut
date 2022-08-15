@@ -204,7 +204,28 @@ input.form-control.pln::placeholder {
   .mgnta {
 	color: var(--Magenta);
   }
-  .uln {
-	border-bottom: solid 1px var(--Light_Grey);
-	display: inline;
-  }
+  .uln {border-bottom: solid 1px var(--Light_Grey); display: inline; padding-bottom: 5px; }
+
+
+  /* owl carousal */
+  .owl-dots, .owl-nav {
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+}
+  .owl-dots .owl-dot {
+    display: inline-block;
+    zoom: 1;
+}
+.owl-dots .owl-dot span{
+  width: 10px;
+  height: 10px;
+  margin: 5px 7px;
+  background: #D6D6D6;
+  display: block;
+  -webkit-backface-visibility: visible;
+  transition: opacity .2s ease;
+  border-radius: 30px
+}
+.owl-dots .owl-dot.active span, .owl-dots .owl-dot:hover span {
+  background: var(--Magenta);
+}

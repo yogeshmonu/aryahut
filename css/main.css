@@ -252,25 +252,17 @@ a.uplnk {
     transform: translateX(-50%);
 }
 /* badge page css */
-.bdg_log {margin-top: -150px;}
+.bdg_log {margin-top: -120px;}
 .clnd { margin-top: 25px;}
-.clnd .dt{ font-size: 5rem; color: var(--Magenta); border-bottom: solid 1px var(--Light_Grey); }
+.clnd .dt{ font-size: 5rem; color: var(--Magenta); border-bottom: solid 1px var(--Light_Grey); line-height: 1; margin-bottom: 10px; display: inline-block; padding: 5px 0 22px; }
 .clnd p { font-size: 1.5rem;}
-.bdg,
-.bdg > a {
-	display: block;
-	width: 100%;
-}
-.bgth > span {
-    font-size: 30px;
-}
+.bdg, .bdg > a { display: block; width: 100%; }
+.bgth > span { font-size: 30px; }
+.badges_slid h1 { line-height: 2;}
 /* == enrolled and save === */
 .enlst .cten h2{margin-top: .7rem;}
 .enlst .cten h2::after { content: ''; width: 35px; height: 1px; background: rebeccapurple; display: block; margin-top: 7px;}
-.cten .crsh {
-    width: 80%;
-    float: left;
-}
+.cten .crsh { width: 80%; float: left;}
 .cten .crsh p {
 	font-size: 1.2rem;
 }

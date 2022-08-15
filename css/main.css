@@ -26,12 +26,12 @@
 	margin-top: 10px;
 	background: var(--Magenta);
 }
-.nh_btm_sec h2 {
-    font-size: 1.3rem;
-}
-.nh_btm_sec h2 > a {
-	font-size: .7rem;
-}
+.nh_btm_sec h2 { font-size: 1.3rem;}
+.nh_btm_sec h2 > a { font-size: .7rem;}
+.hmmntr { background: #f1f1f1; }
+.hmmntr .mmdtt h3 span{ font-size: 16px; color: var(--Magenta); }
+.hmmntr .icnnn {  margin-right: 20px; font-size: 33px; margin-top: 8px; }
+.hmmntr .mmdtt p { margin-bottom: 0;}
 
 
 /*== login screen css ==*/

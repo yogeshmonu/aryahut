@@ -335,13 +335,16 @@ a.uplnk {
 	font-size: 1.4rem;
 }
 .svcnt .svcntldt { 
-	border-bottom: solid 1px var(--Light_Grey) ; padding-bottom: .4rem;     margin-bottom: 25px;
+	border-bottom: solid 1px var(--Light_Grey-400) ; padding-bottom: .4rem;     margin-bottom: 25px;
 }
 .allhadv {
-	border-top: solid 1px var(--Light_Grey);
+    border-top: solid 1px var(--bs-gray);
+    padding-top: 5px;
+    margin-top: 20px !important;
 }
 .recmn {
-	background: #e7e7e7;
+	background: #f1f1f1;
+    border-top: solid 1px var(--bs-gray-400);
 }
 .recmn h3,
 .allhadv .svdcat h3 {
@@ -350,7 +353,7 @@ a.uplnk {
 }
 .recmn .reclst:not(:last-child),
 .allhadv .svctls:not(:last-child) {
-	border-bottom: solid 1px var(--Light_Grey);
+	border-bottom: solid 1px var(--bs-gray-400);
 	margin-bottom: 1rem;
 }
 .recmn .reclst .col .ay_button,

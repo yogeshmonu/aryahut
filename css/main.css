@@ -98,7 +98,7 @@ span.clos { position: relative; top: -15px; left: 50%; height: 3px; display: blo
 .tagss a { margin: 0 5px; background-color: var(--Light_Pink); font-size: 12px; padding: 2px 10px; border-radius: 4px;}
 .srch_cont h2 { font-size: 18px; margin-bottom: 1.7rem;}
 .srch_cont ul li { list-style: none; padding-left: 35px; position: relative; margin-bottom: 1.5rem;}
-.srch_cont ul li::before { counter-increment: section; content: counter(section); position: absolute; left: 0; color: var(--Light_Grey); font-size: 24px;}
+.srch_cont ul li::before { counter-increment: section; content: "0"counter(section); position: absolute; left: 0; color: var(--Light_Grey); font-size: 24px;}
 .srch_cont .cnt h3 { font-size: 22px;}
 .srch_cont .cnt .nam_det { font-size: 16px;}
 .srch_cont .cnt .nm { color: var(--Magenta);}

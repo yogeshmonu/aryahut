@@ -188,7 +188,7 @@ section.cnctn_mn {
 .fr_lst span.fr_img { width: 20%;}
 .fr_lst span.fr_rmv { width: 30%; text-align: end;}
 .fr_lst span.fr_rmv a.btn.ay_button { font-size: 1em; padding: 2px 10px; margin-top: 15px;}
-.fr_lst span.fr_img img { height: 50px; border-radius: 50%; }
+.fr_lst span.fr_img img { height: 50px; border-radius: 50%; object-fit: cover;}
 .fr_lst span.fr_nm > span { display: block; color: var(--Magenta);}
 .fr_lst span.fr_nm > a { font-size: 1.5em; text-decoration: none;}
 .cnctn_mn .fr_lst {  margin: 20px 0 25px !important; }
@@ -421,6 +421,20 @@ a.uplnk {
 .pp_cnt .sn_cnt { margin-bottom: 30px;}
 .prv_pol span.ppl_clos { position: absolute; top: 20px; right: 20px;}
 
+
+
+/* notification page css */
+.nt_bx_Bg { background: rgba(67, 60, 99, 0.32); width: 100%; float: left; margin: 10px 0; padding: 10px; }
+.nt_bx_Bg h2 { color: var(--Magenta); font-size: 1.52rem; }
+.nt_bx_Bg .fr_lst span.fr_img {  width: 50px;  margin-right: 5px; }
+.flrq > a { text-decoration: none; }
+.nt_bx_Bg span.flrq a,
+.nt_bx_Bg span.flrq p{  font-size: 1.1rem; }
+.btns_ac .btn { font-size: 0.85rem; padding: 2px 6px; color: var(--bs-white); border-radius: 0; }
+button.btn.dnybtm { background-color: var(--Grey);}
+.nt_sgg .fr_lst span.fr_nm > a { font-size: 1.2em; }
+.nt_sgg .fr_lst span.fr_rmv span a { margin-top: 10px; text-decoration: none; }
+.nt_sgg .fr_lst span.fr_rmv a.btn.ay_button { margin-top: 0; padding: 1px 15px; border-radius: 5px; margin-right: 10px;}
 
 
 /* responsive css */

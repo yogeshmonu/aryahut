@@ -9,11 +9,11 @@ body {
 
 :root {
   --Purple: #09007c;
-  --Light_Pink: #ffdeff;
+  --Light_Pink: #fbe4ee;
   --Light_Magenta : #ff33ff;
   --Magenta: #eb268f;
   --Grey: #433c63;
-  --Light_Grey: #fbe4ee;
+  --Light_Grey: #bebebe;
 }
 
 .ar_shadow {
@@ -38,11 +38,7 @@ a { color: var(--Grey) }
 
 
 /*== buttons and inputs ==*/
-.ay_button {
-    color: #fff;
-    border: solid 1px var(--Magenta);
-    background: var(--Magenta);
-    padding: 6px 25px;
+.ay_button { color: #fff; border: solid 1px var(--Magenta); background: var(--Magenta); padding: 6px 25px;
     font-size: 25px;
     border-radius: .6rem;
 }
@@ -79,6 +75,9 @@ input.form-control.pln::placeholder {
 	opacity: 0;
 	cursor: pointer;
 }
+::placeholder { opacity: 1; /* Firefox */ }
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ opacity: 1; }
+::-ms-input-placeholder { /* Microsoft Edge */ opacity: 1;}
 
 
 

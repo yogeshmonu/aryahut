@@ -60,7 +60,7 @@
 .oto_sec .o_t_p .form-control {	border: none; background: none; border-bottom: solid 1px var(--Magenta);	border-radius: 0; font-size: 24px; color: var(--Magenta);}
 .otp_custu_care { position: absolute; bottom: 0; left: 0;width: 100%;height: 100%; background: rgba(255,255,255,.5);
 }
-.otp_custu_care .inr { position: absolute; bottom: 0; background: var(--Light_Pink); width: 100%; padding: 25px;}
+.otp_custu_care .inr { position: absolute; bottom: 0; background: #fef3fa; width: 100%; padding: 25px;}
 span.clos { position: relative; top: -15px; left: 50%; height: 3px; display: block; background: var(--Grey); width: 40px; transform: translateX(-20px);}
 .oto_sec .det_trg { font-size: 28px;}
 
@@ -107,14 +107,7 @@ span.clos { position: relative; top: -15px; left: 50%; height: 3px; display: blo
 section.whmnt {	border-top: solid 1px var(--Light_Grey);}
 section.whmnt h2 { font-size: 1rem;}
 section.whmnt .whofloe {padding-left: 1rem;}
-section.whmnt .whofloe .flws h4::before {
-	content: 'M';
-    border: solid 1px var(--Grey);
-    line-height: 1;
-    color: var(--Magenta);
-    margin-right: 4px;
-    padding: 0 3px;
-}
+section.whmnt .whofloe .flws h4::before {content: 'M'; border: solid 1px var(--Grey); line-height: 1; color: var(--Magenta); margin-right: 4px; padding: 0 3px; font-size: .8rem;}
 section.whmnt .whofloe .flws h4 {
     font-size: 18px;
 }
@@ -435,6 +428,21 @@ button.btn.dnybtm { background-color: var(--Grey);}
 .nt_sgg .fr_lst span.fr_nm > a { font-size: 1.2em; }
 .nt_sgg .fr_lst span.fr_rmv span a { margin-top: 10px; text-decoration: none; }
 .nt_sgg .fr_lst span.fr_rmv a.btn.ay_button { margin-top: 0; padding: 1px 15px; border-radius: 5px; margin-right: 10px;}
+
+
+
+/* g-Score result page */
+.g_sc_mn {margin-top: 20px;}
+.g_sc_mn h2 { font-size: 2.5rem; margin-bottom: 1.5rem;}
+.g_sc_mn p.de_2 { font-size: 1.6rem; margin-bottom: 5px;}
+.g_sc_mn h3 { font-size: 33px; margin-bottom: 2rem;}
+.l_cn_tr { position: absolute; left: 50%; text-align: center; max-width: 200px; transform: translateX(-50%);}
+.rsult_l .top_resl h1{ font-size: 3.5rem; }
+.rsult_l .top_resl { margin-bottom: 2rem; }
+.rsult_l .top_resl h3 { font-size: 2rem; display: inline-block; border-top: solid 1px var(--bs-gray); padding: 0 15px;}
+.rsult_l .btm_rsl h3 {
+    font-size: 2rem;
+}
 
 
 /* responsive css */

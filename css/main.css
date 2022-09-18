@@ -159,11 +159,21 @@ video::-webkit-media-controls-timeline {
 .gndr input[type=radio]:checked + .radio-label { border-bottom: solid 2px var(--Magenta);}
 .sgrd .radio-label { border: solid 1px var(--Grey); border-radius: 4px; padding: 0 10px; margin-top: 5px;}
 .sgrd input[type=radio]:checked + .radio-label { background-color: var(--Magenta); color: #fff; }
-.nmtg input { border: none; border-bottom: solid 1px var(--Grey); background: transparent; }
+.nmtg input { border: none; font-size: calc(1.275rem + .3vw);
+    padding-bottom: 6px; padding-left: 0px; border-bottom: solid 1px var(--Grey); color:var(--Magenta) !important; background: transparent; }
 .dtbtm { margin-top: 8vh; margin-bottom: 10px;}
 .dtbtm .ay_button { padding: 7px 20px; font-size: 20px; line-height: 1.2; }
 .dtbtm a { text-decoration: none;}
-
+.nmtg input::placeholder {
+    color: var(--Grey);
+    opacity: 1; /* Firefox */
+  }
+  .nmtg input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: var(--Grey);
+  }
+  .nmtg input::-ms-input-placeholder { /* Microsoft Edge */
+   color: var(--Grey);
+  }
 
 /* === Connections page css === */
 section.cnctn_mn {
@@ -489,4 +499,13 @@ button.btn.dnybtm { background-color: var(--Grey);}
 
     .mb-3.text-center.mt-5.fx__btns { position: relative; bottom: 0; }
 }
+
+/*
+@media screen and (min-width: 995px OR max-height: 700px) {
+  .log_syihn {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%);
+  }
+}*/
 

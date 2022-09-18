@@ -451,8 +451,8 @@ button.btn.dnybtm { background-color: var(--Grey);}
 .rsult_l .btm_rsl h3 {
     font-size: 2rem;
 }
-/* .dtls { background: rgb(255,24,203);
-    background: linear-gradient(0deg, rgba(255,24,203,0.5592814241902212) 0%, rgba(255,255,255,0.6744499635160639) 100%, rgba(255,255,255,0.7783825477857268) 100%);} */
+ .dtls { background: rgb(255,24,203);
+    background: linear-gradient(0deg, rgba(255,24,203,0.5592814241902212) 0%, rgba(255,255,255,0.6744499635160639) 100%, rgba(255,255,255,0.7783825477857268) 100%);} 
 
 
 

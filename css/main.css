@@ -266,6 +266,9 @@ section.cnctn_mn {
 .upbrt {
     position: relative;
 }
+.bg_v1.ac_sett .dtls .ay_button {
+    margin-top: 1rem;
+}
 a.uplnk {
     position: absolute;
     right: 0;
@@ -517,15 +520,18 @@ button.btn.dnybtm { background-color: var(--Grey);}
         max-width: 500px;
         margin: 0 auto;
     }
-    .bg_v1.ac_sett .profile-pic { margin-top: -15px; margin-bottom: 20px;}
+    .bg_v1.ac_sett .profile-pic { margin-top: -82px; margin-bottom: 20px;}
     .bg-v4 { height: 100%; background-position: 0 63%; }
     .bg-v2 { height: 100%; background-position: 0 15%; }
     .bg-v1 { height: 100%; background-position: 0px 17%;}
-    .bg_v1 { background-position: center 27%;}
+    .bg_v1 { background-position: center -376px;}
 
     .mb-3.text-center.mt-5.fx__btns { position: relative; bottom: 0; }
     .hmmntr .mmdtt h3 {
         font-size: calc(.85rem + .6vw);
+    }
+    .bg_v1.ac_sett .dtls {
+        margin-top: 80px;
     }
 }
 

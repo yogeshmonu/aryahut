@@ -59,7 +59,7 @@
 
 /*=== otp page css ====*/
 .hedr p { margin-top:5rem; font-size: 24px; }
-.otp_scr .hedr {position: relative; margin-top: 3rem;}
+.otp_scr .hedr {position: relative; margin-top: 2rem;}
 .otp_scr .hedr .go_back {position: absolute;left: 0;top: 0;font-size: 24px; }
 .otp_steps {margin-bottom: 1.5rem;}
 .otp_steps .ot_step {width: 33.33%;}
@@ -76,7 +76,7 @@ span.clos { position: relative; top: -15px; left: 50%; height: 3px; display: blo
 
 /*== g-score page css ==*/
 .opt { width: 70%; float: left; font-size: 16px; }
-.otp_scr h1 { font-size: 30px; margin-bottom: 2rem; }
+.otp_scr h1 { font-size: 30px; margin-bottom: 2rem; font-style: italic; }
 .fst, .last { width: 15%; float: left; font-size: 16px; }
 .qstn ol { padding: 0; }
 .qstn ol li { width: 100%; list-style: lower-alpha; float: left; font-size: 16px; margin-bottom: 10px; }
@@ -86,6 +86,19 @@ span.clos { position: relative; top: -15px; left: 50%; height: 3px; display: blo
 .qstn .hdr { margin-bottom: 10px;}
 .qstn .hdr > div { font-size: 22px;}
 .otp_scr legend { font-size: 25px;}
+.otp_scr form {
+    margin-top: 55px;
+}
+.qstn ol li .radiobtn {
+    left: 15px;
+}
+.qstn ol li .last .radiobtn {
+    right: 8px;
+    left: inherit;
+}
+.qstn .hdr .last {
+    text-align: right;
+}
 
 
 /*== g-score instraction page css ===*/

@@ -46,7 +46,8 @@
 /*== login screen css ==*/
 .a_crd { border-radius: 1.5em; background: #fff; margin-top: 100px !important; min-height: 230px; padding: 2.5rem 1.5rem; margin-bottom: 5rem !important; }
 .log_bottom {text-align: center;}
-.log_bottom .ay_button { width: 250px; margin-top: 15px; }
+.log_bottom .ay_button { width: 250px; display: block;
+    margin: 15px auto 0 auto; }
 .log_bottom p { font-size: 12px;     margin-bottom: 0; }
 .log_registr .head_t {margin-top: 4rem;}
 .log_registr .head_t p {

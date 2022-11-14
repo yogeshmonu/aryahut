@@ -52,7 +52,8 @@
 .log_registr .head_t {margin-top: 4rem;}
 .log_registr .head_t p {
     font-size: 24px;
-    margin: 40px 3px;
+    margin: 40px auto;
+    max-width: 225px;
 }
 .a_crd .form-control {
     text-align: center;
@@ -73,7 +74,14 @@
 .otp_custu_care .inr { position: absolute; bottom: 0; background: #fef3fa; width: 100%; padding: 25px;}
 span.clos { position: relative; top: -15px; left: 50%; height: 3px; display: block; background: var(--Grey); width: 40px; transform: translateX(-20px);}
 .oto_sec .det_trg { font-size: 28px;}
-
+.oto_sec {
+    max-width: 500px;
+    margin: auto;
+}
+.otp_scr.g_scor_instr.ht_full {
+    position: initial;
+    height: auto;
+}
 
 /*== g-score page css ==*/
 .opt { width: 70%; float: left; font-size: 16px; }
@@ -151,6 +159,7 @@ section.whmnt .whofloe .flws h4 {
 .Unl_memb .mam_cont ul li::before { content: "\F309"; left: -10px; color: var(--Magenta); top:-10px; font-family: bootstrap-icons !important; font-size: 2rem; position: absolute;}
 .Unl_memb .mam_cont .btngt .ay_button {
     padding: 10px 50px;
+    margin-top: 115px;
 }
 
 
@@ -213,12 +222,15 @@ section.cnctn_mn {
 }
 .cnctn_mn .cn_sect > span.active::after { background: var(--Magenta); }
 .fr_lst > span { float: left; }
+.fr_lst span .mgnta {
+    float: none;
+}
 .fr_lst span.fr_nm { width: 50%;}
 .fr_lst span.fr_img { width: 20%;}
 .fr_lst span.fr_rmv { width: 30%; text-align: end;}
 .fr_lst span.fr_rmv a.btn.ay_button { font-size: 1em; padding: 2px 10px; margin-top: 15px;}
 .fr_lst span.fr_img img { height: 50px; border-radius: 50%; object-fit: cover;}
-.fr_lst span.fr_nm > span { display: block; color: var(--Magenta);}
+.fr_lst span.fr_nm > span { display: block; color: var(--Magenta); margin-right: 5px;}
 .fr_lst span.fr_nm > a { font-size: 1.5em; text-decoration: none;}
 .cnctn_mn .fr_lst {  margin: 20px 0 25px !important; }
 
@@ -457,7 +469,7 @@ a.uplnk {
 /* notification page css */
 .nt_bx_Bg { background: rgba(67, 60, 99, 0.32); width: 100%; float: left; margin: 10px 0; padding: 10px; }
 .nt_bx_Bg h2 { color: var(--Magenta); font-size: 1.52rem; }
-.nt_bx_Bg .fr_lst span.fr_img {  width: 50px;  margin-right: 5px; }
+.nt_bx_Bg .fr_lst span.fr_img {  width: 50px;  margin-right: 5px; float: left; }
 .flrq > a { text-decoration: none; }
 .nt_bx_Bg span.flrq a,
 .nt_bx_Bg span.flrq p{  font-size: 1.1rem; }
@@ -506,14 +518,14 @@ button.btn.dnybtm { background-color: var(--Grey);}
 
 @media only screen and (min-width:501px) {
     /* login page responsive */
-    .log_registr .head_t {
+    /* .log_registr .head_t {
         margin-top: 2rem;
         display: flex;
         justify-content: space-between;
         padding-right: 1.5rem!important;
         padding-left: 1.5rem!important;
-    }
-    .log_registr .head_t p {  margin: 0px 0px; font-size: 20px}
+    } */
+    .log_registr .head_t p {  margin: 0px 0px; font-size: 20px; max-width: 100%; }
     .log_registr .head_t img.img-fluid { width: 70px;}
     .log_syihn .a_crd { max-width: 500px; margin: 30px auto !important; }
     /* account setting responsive */
